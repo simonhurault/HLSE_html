@@ -59,7 +59,10 @@ header img {
   padding-top: 5px;
 }
 
-
+.figure_animated figcaption {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
 
 figcaption {
   position: relative;
@@ -70,15 +73,13 @@ figcaption {
   width: 100%;
   color: #fff;
   background-color: rgba(0,0,0,.7);
-  opacity: 0;
-  transition: opacity .5s ease-in-out;
 }
 
-figure:hover figcaption {
+.figure_animated:hover figcaption {
   opacity: 1;
 }
 
-figure {
+.figure_animated {
   display: inline-block;
   margin: 5px 0 10px 0;
 }
@@ -137,4 +138,9 @@ figure {
 .rotate_top:hover{
   transform: rotate(-90deg);
   background-image: url('icon/icon_top.png');
+}
+
+.right {
+  float: right;
+  display: block;
 }
