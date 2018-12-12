@@ -6,11 +6,11 @@
 	width: 50%
 }
 
-ul li a:link{
+ul li a.quantite:link{
 	color: darkgreen;
 }
 
-p.note{
+ p.note{
 	background-color: yellow;
 	font-size: x-small;
 	margin-left: 60;
@@ -28,13 +28,14 @@ ul.quantite{
 	background-color: silver;
 }
 
-th.color{
+ th.color{
 	background-color:yellow;
 }
 
-h2{
+ #title_page{
 	text-align: center;
 }
+
 
 .bdOrange{
 	background-color: orange;
